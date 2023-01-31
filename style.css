@@ -9,7 +9,7 @@ body{
     color: white;
     text-align: center;
     background-color: rebeccapurple;
-    padding: 5px;
+    padding: 10px;
 }
 .players{
     margin: 10px;
@@ -49,6 +49,12 @@ body{
     margin-top: 0;
 }
 @media only screen and (max-width:767px){
+    .container{
+        padding: 10px 10px;
+    }
+    .container>h1{
+        font-size: 22px;
+    }
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
